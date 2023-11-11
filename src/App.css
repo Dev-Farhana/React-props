@@ -1,0 +1,56 @@
+  @import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&family=Lobster&family=Pacifico&display=swap');
+#root {
+  max-width: 1280px;
+  text-align: center;
+  /* font-family: 'Cabin Sketch', sans-serif;
+  font-family: 'Lobster', sans-serif;
+  font-family: 'Pacifico', cursive; */
+}
+input{
+  padding:  1rem;
+}
+
+.logo {
+  height: 6em;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+div{
+  margin: auto;
+}
+.read-the-docs {
+  color: #888;
+}
+
+span{
+  color: #888;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: 'Pacifico', cursive;
+}
+
+ul{
+  list-style: none;
+  color: orangered;
+  font-size: x-large;
+}
